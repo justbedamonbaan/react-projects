@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #404040;
+}
+
+.container{
+    text-align: center;
+    color: #c5aa6a;
+}
+
+.description{
+    margin-top: 12px;
+    padding: 0 33%;
+}
+
+.pageIntro{
+    margin: 24px 0;
+}
+
+.br{
+    max-width: 75%;
+    max-height: 0;
+    border-bottom: 2px solid black;
+    margin-top: 12px;
+    margin-left: 12.5%;
+    opacity: 25%;
+}
+
+.introTitle{
+    font-size: 42px;
+}

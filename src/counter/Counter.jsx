@@ -1,5 +1,7 @@
 import { useState } from "react";
 import './Counter.css'
+import '../index.css'
+import Intro from "../components/Intro";
 
 function CounterPage () {
     
@@ -14,11 +16,13 @@ function CounterPage () {
     return (
         
     <div className="container">
-        <div className="pageIntro">
-            <h1>Counter</h1>
+        {/* <div className="pageIntro">
+            <h1 className="introTitle">Counter</h1>
             <div className="br"></div>
             <p className="description">This is a small counter project using useState hooks to remember the number of clicks per button.</p>
-        </div>
+        </div> */}
+
+            <Intro title="Counter" description="This is a small counter project using useState hooks to remember the number of clicks per button."/>
 
         <div className="counter">
             <h2>Do you love cats or hate life?</h2>

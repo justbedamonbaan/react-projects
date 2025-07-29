@@ -1,4 +1,5 @@
 import './App.css'
+import './index.css'
 import Navbar from './components/Navbar'
 import CounterPage from './counter/Counter'
 import TicTacToePage from './tictactoe/TicTacToe'

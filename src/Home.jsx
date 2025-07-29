@@ -1,7 +1,11 @@
+import Intro from "./components/Intro";
+
+
 function Home () {
     return (
-        <div>
-            <h1>Home page</h1>
+        <div className="container">
+            <Intro title="Homepage" description="Here you will find methodes, color palette, hooks and components that are used in building this
+            showcase of smaller react projects."/>
         </div>
     )
 }

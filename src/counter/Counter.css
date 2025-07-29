@@ -1,27 +1,7 @@
-.container{
-    text-align: center;
-    color: #c5aa6a;
-}
-
 .counterContainer{
     display: flex;
     justify-content: space-evenly;
     padding: 0 10%;
-}
-
-.pageIntro{
-    margin: 24px 0;
-}
-
-
-.description{
-    margin-top: 8px;
-    padding: 0 33%;
-}
-
-
-.counter{
-    margin-top: 48px;
 }
 
 img.imageContainer{
@@ -38,17 +18,10 @@ img.imageContainer{
     padding: 8px;
     width: 60%;
     border-radius: 2%;
+    border: 1px black solid;
 }
 
 .countButton:hover{
     color: #c5aa6a;
 }
 
-.br{
-    max-width: 75%;
-    max-height: 0;
-    border-bottom: 2px solid black;
-    margin-top: 8px;
-    margin-left: 12.5%;
-    opacity: 25%;
-}
